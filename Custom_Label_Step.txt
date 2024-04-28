@@ -1,0 +1,22 @@
+Step 1: Upon logging into your Amazon Management Console, locate and select "Amazon Rekognition."
+Step 2: If it's your first time accessing this service, you'll be prompted to create an S3 bucket. Simply click on "Create Bucket."
+Step 3: Navigate to the left side of the screen and select "Use Custom Labels."
+Step 4: Click on "Get Started" to proceed.
+Step 5: Under the "Projects" section on the left-hand side, choose "Create Project."
+Step 6: Provide a name for your project and click on "Create Project."
+Step 7: Next, select "Create Dataset."
+Step 8: Within the "Training Dataset Details," opt to "import images from S3 bucket."
+Step 9: Open a new browser tab and access the S3 console by searching for "S3" and clicking on it.
+Step 10: Locate and click on the bucket created by AWS at the beginning.
+Step 11: Select "Upload" followed by "Add Folder."
+Note: I have provided a test folder for you on my GitHub Repo. You can download or fork it.
+Step 12: Upload the provided folder and click on "Upload."
+Step 13: Navigate into the uploaded folder and locate "Properties" at the top. Copy the "S3 URL."
+Step 14: Return to the AWS Rekognition tab and paste the URL.
+Step 15: Choose "Automatically assign image-level labels to images based on the folder name" and proceed by clicking "Create Dataset."
+Step 16: Congratulations! You have successfully completed setting up custom label projects. You can now observe labels such as "dogs" under dog photos and "homes" under home photos.
+
+Note: Avoid clicking on "Train Model" as this may incur charges on a free tier account.
+Note: Make sure to delete the project and S3 bucket when they are no longer needed.
+
+Thank you!
